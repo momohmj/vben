@@ -1,3 +1,6 @@
 /dist/*
 /public/*
 public/*
+public/**
+/src/*
+/node_modules/**

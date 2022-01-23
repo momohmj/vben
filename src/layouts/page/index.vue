@@ -1,5 +1,5 @@
 <template>
-  <RouterView>
+  <router-view>
     <template #default="{ Component, route }">
       <transition
         :name="
@@ -20,7 +20,7 @@
         <component v-else :is="Component" :key="route.fullPath" />
       </transition>
     </template>
-  </RouterView>
+  </router-view>
   <FrameLayout v-if="getCanEmbedIFramePage" />
 </template>
 
